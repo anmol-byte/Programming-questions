@@ -1,3 +1,3 @@
 # Programming-questions
 
-A comprpehensive list of some programming questions in Java.
+A comprehensive list of some programming questions in Java.
