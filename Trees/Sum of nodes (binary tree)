@@ -1,7 +1,7 @@
 import java.util.*;
 public class Main {
 
-	static Scanner scn = new Scanner(System.in);
+	static Scanner scanner = new Scanner(System.in);
 	
 	public static void main(String[] args) {
 		Main m = new Main();
@@ -25,20 +25,20 @@ public class Main {
 
 		public Node takeInput(Node parent, boolean ilc) {
 			
-			int cdata = scn.nextInt();
+			int cdata = scanner.nextInt();
 			Node child = new Node();
 			child.data = cdata;
 			this.size++;
 
 			// left
-			boolean hlc = scn.nextBoolean();
+			boolean hlc = scanner.nextBoolean();
 
 			if (hlc) {
 				child.left = this.takeInput(child, true);
 			}
 
 			// right
-			boolean hrc = scn.nextBoolean();
+			boolean hrc = scanner.nextBoolean();
 
 			if (hrc) {
 				child.right = this.takeInput(child, false);
