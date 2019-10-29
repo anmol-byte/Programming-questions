@@ -10,7 +10,10 @@ public class MaxDepthConsecParen {
 		int n = scn.nextInt();
 		for (int i = 1; i <= n; i++) {
 			String s = scn.next();
-			System.out.println(func(s));
+			// println is for printing in next line
+			// System.out.println(func(s));
+			// for printing in same line just remove ln
+			System.out.print(func(s));
 		}
 	}
 
