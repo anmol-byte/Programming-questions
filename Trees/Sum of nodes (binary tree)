@@ -6,7 +6,10 @@ public class Main {
 	public static void main(String[] args) {
 		Main m = new Main();
 		BinaryTree bt = m.new BinaryTree();
+		// This is for printing sum of nodes in next LIne
 		System.out.println(bt.sumOfNodes());
+		// This is for writing sum of nodes in the same line
+		System.out.print(bt.sumOfNodes());
 	}
 
 	private class BinaryTree {
